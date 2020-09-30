@@ -121,10 +121,22 @@
 
 * Организации заинтересованы в амбициозных сотрудниках, так как они приносят с собой личные деньги и тратят их в ходе работы. Результат расчётов заплановыми деньгами оборачивается заключением сделки. Сделка подкрепляется транзакцией. Эмиссия денег будет происходить централизованно на первых стадиях.
 
+Примеры безлюдных производств:
+* FANUC, Япония - https://www.automationworld.com/factory/robotics/article/13316849/turning-out-the-lights-on-the-factory-floor
+* Philips, Нидерланды - https://www.assemblymag.com/articles/90173-automation-profiles--robots-help-philips-shave-assembly-costs-?v=preview
+* Hirotec - https://internetofbusiness.com/success-stories-five-companies-smart-factories-can-learn/
+* Siemens plant in Amberg - ссылки нет
+
+Дополнительные ссылки:
+* статья в wikipedia - https://en.wikipedia.org/wiki/Self-replicating_machine
+* примеры САС в научной фантастике - https://en.wikipedia.org/wiki/Self-replicating_machines_in_fiction
+* "Lights out" - этим словом обозначают производства, где не предполагается наличия людей. Можно использовать это выражение для поиска примеров такого рода фабрик в интернет - https://en.wikipedia.org/wiki/Lights_out_(manufacturing)
+* книга "Kinematic Self-Replicating Machines" авторов Robert A. Freitas Jr. и Ralph C. Merkle является наиболее полным обзором западных исследований в области самовоспроизводящихся машин до 2004 года - http://www.molecularassembler.com/KSRM.htm
+* Fifty Years of Research on Self-Replication: An Overview - http://fab.cba.mit.edu/classes/865.18/replication/Sipper.pdf
+* Lights-Out Automation: Fact or Fiction? - https://www.assemblymag.com/articles/94982-lights-out-automation-fact-or-fiction
+
 Источники:
-* [1] - Injury rates at Tesla’s auto factory were 31 percent higher than the industry average, report finds
-https://www.theverge.com/2017/5/24/15681472/tesla-model-3-electric-car-factory-injury-rate-worker-safety
-* [2] - Analysis of Tesla Injury Rates
-https://worksafe.typepad.com/files/worksafe_tesla5_24.pdf
-* [3] - A comparative study of automation strategies at Volkswagen in Germany and South Africa
-https://www.researchgate.net/publication/272689373_A_comparative_study_of_automation_strategies_at_Volkswagen_in_Germany_and_South_Africa
+* [1] - Injury rates at Tesla’s auto factory were 31 percent higher than the industry average, report finds - https://www.theverge.com/2017/5/24/15681472/tesla-model-3-electric-car-factory-injury-rate-worker-safety
+* [2] - Analysis of Tesla Injury Rates - https://worksafe.typepad.com/files/worksafe_tesla5_24.pdf
+* [3] - A comparative study of automation strategies at Volkswagen in Germany and South Africa - https://www.researchgate.net/publication/272689373_A_comparative_study_of_automation_strategies_at_Volkswagen_in_Germany_and_South_Africa
+* [4] - Toyota is bucking the industrial automation trend and putting humans back on the assembly line - https://www.rolandberger.com/nl/Point-of-View/Automotive-manufacturing-requires-human-innovation.html
