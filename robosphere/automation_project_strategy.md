@@ -141,3 +141,5 @@
 * [2] - Analysis of Tesla Injury Rates - https://worksafe.typepad.com/files/worksafe_tesla5_24.pdf
 * [3] - A comparative study of automation strategies at Volkswagen in Germany and South Africa - https://www.researchgate.net/publication/272689373_A_comparative_study_of_automation_strategies_at_Volkswagen_in_Germany_and_South_Africa
 * [4] - Toyota is bucking the industrial automation trend and putting humans back on the assembly line - https://www.rolandberger.com/nl/Point-of-View/Automotive-manufacturing-requires-human-innovation.html
+* [5] - How Tesla “shot itself in the foot” by trying to hyper-automate its factory https://qz.com/1261214/how-exactly-tesla-shot-itself-in-the-foot-by-trying-to-hyper-automate-its-factory/
+* [6] - Checklist for lights out manufacturing https://www.productionmachining.com/articles/checklist-for-lights-out-manufacturing
