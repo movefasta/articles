@@ -1,0 +1,41 @@
+# Robossembler. Digital twin of a partially self-replicating factory
+
+## Background
+
+Modern production systems are complex software and hardware complexes consisting of a large number of components with varying degrees of interdependence, which are developed, manufactured and supplied by various companies. On the one hand, a deep division of labor increases quality, but on the other hand, it makes it difficult to integrate components into fully automated super - systems.
+In turn, the task of developing autonomous (light's out) or self-replicating (self-replication) technical systems requires close integration of life cycle data within the framework of the common requirement of "desolation"for all its subsystems. This requirement also imposes a number of significant restrictions on the design of all components of the system and makes it almost impossible to develop and implement within a single company. Even the most automated industries cannot escape manual labor; especially in assembly operations.
+However, fully automated production also has a number of advantages, because it allows you to achieve a high synergistic effect by eliminating
+* human-machine interfaces and aesthetic requirements (including special labeling);
+* human-adapted operating conditions (air, humidity, lighting, temperature);
+* compliance with safety standards, interchangeability within the existing range of components, maintainability.
+
+That is, the development of such systems requires a revision of the basics of technical systems and the principles of the production process, which is currently focused on assembly, commissioning and operation by humans.
+
+However, what is not possible for a single company may be possible for the international open source movement, which can facilitate the continuous integration of the data of the life cycle of subsystems developed by individual teams, which is difficult in the conditions of classical engineering firms.
+
+Also, the current level of computing systems at the current stage of their development makes it possible to create digital twins (digital twin) productions, the behavior of which in the framework of simulation can be approximated to real physical objects. In the future, it will be possible not to wait for pilot production to test some hypothesis, but to limit ourselves to physical and simulation modeling. Developers will not be constrained by the limitations of the existing component base and the resulting inertia of thinking. It is acceptable to come up with everything from scratch-taking into account the requirement of full automation, ensuring transparency of the development process and the contribution of everyone.
+
+## Partially self-replicating factory
+
+As a first step, it is proposed to create a digital twin of a partially self-replicating robotic factory, temporarily abandoning the study of resource-extracting subsystems, the chemical industry, the production of microelectronics, and energy. The demonstration of a dynamic model of a factory that can create complete copies of its production units will draw the attention of the world engineering community to the need to apply special approaches to creating fully automated systems and will start the process of further development.
+
+Since the key element of the deserted production is robot manipulators, it is proposed to focus on their reproduction in the framework of creating a model. At the moment, manipulators cannot be produced in fully automatic mode due to the following restrictions:
+1. The technical complexity or impossibility of automating individual operations - for example, the installation of drive belts and fasteners of structural components that require stretching cables, connectors. Cable connections require standardized elements of a specific nomenclature. The use of custom items is difficult due to the high cost and long delivery times.
+2. A set of deviations, the accumulation of which in its sum levels the very ability to perform accurate operations, which leads to a progressive decrease in the quality of reproduction until the processes stop completely. The inability to provide a mechanism for error compensation without a person.
+3. The need to provide a marketable appearance and a wide range of products at the expense of the convenience of copying samples. Which should work "out of the box", without finishing them by the user, which may be necessary with even minimal, random design differences.
+
+In this regard, it is proposed to use a different approach:
+1. The rejection of the global assembly of robots in one workplace. Intermediate modular subassemblies are created;
+2. No complex assembly elements - for example, drive belts that stretch through 2-3 flexible joints;
+3. The use of another criterion for the effectiveness of the technical system — not compliance with certain requirements for the product, but ensuring self-reproduction; avoiding rejection by including defective products in the repeated production cycle, taking into account the changed parameters;
+4. Revision of the housing design. The housing should become a three-dimensional structure with cables and tubes already held inside, with toothed crowns, bearings, axles, conductive cores, electronic boards, sensors, and contact pads fused into it. It is possible to make it in an injection mold with conductors. The body itself can be cast. The most promising may be glass foam with fillers that improve the dynamic characteristics.
+5. The robot will be assembled from complementary blocks-segments with all-in-one connections or mounting collets. If a node fails – the connection is destroyed, the module is replaced, and the connection is restored.
+6. Robots undergo mandatory calibration aimed at accounting for and compensating for deviations in its mathematical model of kinematics.
+
+The assembly cell of the self-replicating automated system (SRAS) will be a complex consisting of a desktop in the form of a honeycomb, having 6 pylons for docking robots, 6-7-axis manipulators, machine adapters and other working tables. The next step after designing the production of servos and robot manipulators is to develop a model of self-reproduction of the automated control system as an elementary unit of the production system. It is proposed to provide the interaction of the automated control systems with the help of adapters – remote interfaces for controlling the CNC machine by the automated control system complex. The adapter will also have a pylon for docking the robot manipulator and servicing the CNC machine. The use of adapters will greatly facilitate the transition from the classic factory to the automatic one.
+
+In preparation for the implementation of the plan described above, a model and prototype of a servo drive adapted for self-replication was developed in the period 2013-2019.
+
+## Development of self-replicating system development tools
+
+The development of a SRAS, due to its complexity, will require the involvement of a large number of people, new engineering solutions, and an intensive life cycle data management(PLM) process. The above-mentioned model of a partially self-replicating factory can serve as a testing ground for open, decentralized design methods and, in the future, provide sufficient scaling for the implementation of grandiose projects. The development of individual nodes can be carried out by separate independent teams, and the integration of the development lifecycle data of these nodes can be carried out through a public distributed database. The Robonomics platform can be used for interaction between developers and existing capital-intensive cyber-physical systems for the purpose of manufacturing prototypes or conducting tests, where orders for the manufacture/testing of parts/assemblies/products will be published and the most profitable offers for implementation will be selected using a network of beacons. This will allow us to test the mechanism of communication between individual parachains within the polkadot ecosystem, where the Robonomics parachain will act as a gateway between the ideal world of developer models and the real world of cyber-physical systems. Gradually, the interaction of these worlds will help to build an optimal trajectory from the available opportunities to the ideal desired result.
